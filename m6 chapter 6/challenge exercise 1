@@ -1,7 +1,7 @@
 def Information():
     first_name=input('Enter first name: ')
-    last_name=input('Enter last name: ')
-    age=input('Enter age: ')
+last_name=input('Enter last name: ')
+age=input('Enter age: ')
 
 Informationfile=open('personalinformation.txt','w')
 

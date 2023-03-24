@@ -1,0 +1,24 @@
+def Information():
+    first_name=input('Enter first name: ')
+    last_name=input('Enter last name: ')
+    age=input('Enter age: ')
+
+Informationfile=open('personalinformation.txt','w')
+
+Informationfile.write(first_name+'\n')
+Informationfile.write(last_name+'\n')
+Informationfile.write(age+'\n')
+
+Informationfile.close()
+
+print('personal information.\n')
+
+Information()
+
+def read():
+    infile=open('personalinformation.txt','r')
+    filecontents=infile.read()
+    infile.close()
+    print(filecontents)
+    
+read()

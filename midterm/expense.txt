@@ -1,0 +1,5 @@
+rent: 450
+gas: 245
+food: 320
+clothing: 400
+car: 120

@@ -30,7 +30,7 @@ models = {
 topics = ["Python", "Machine Learning", "Data Science", "Web Development"]
 
 # Define a tuple of greeting messages
-greetings = ("Hi there! I'm ChatGPT. How can I assist you?", 
+greetings = ("Hi there! How can I assist you today?", 
              "Hello! How can I help you today?", 
              "Greetings! What can I do for you?")
 

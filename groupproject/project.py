@@ -2,7 +2,7 @@ import openai
 import time
 
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define a function to get GPT-3 response
 def get_gpt_response(prompt, model, engine):
